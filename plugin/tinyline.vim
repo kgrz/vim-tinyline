@@ -222,7 +222,7 @@ set statusline=                            "| Clear status line  |
 set statusline+=\ %7*%{&paste?'=':''}%*    "| Paste symbol       | =
 set statusline+=%4*%{&ro?'':'#'}%*         "| Modifiable symbol  | #
 set statusline+=%6*%{TlMode()}             "| Readonly symbol    | 
-set statusline+=%*%n                       "| Buffer number      | 3
+" set statusline+=%*%n                       "| Buffer number      | 3
 set statusline+=%6*%{TlModified()}%0*      "| Write symbol       | +
 set statusline+=\ %1*%{TlSuperName()}%*    "| Relative supername | cor/app.js
 set statusline+=\ %<                       "| Truncate here      |
@@ -230,10 +230,10 @@ set statusline+=%(\ %{TlBranchName()}\ %) "| Git branch name    |  master
 set statusline+=%4*%(%{TlWhitespace()}\ %) "| Space and indent   | trail34
 set statusline+=%(%{TlSyntax()}\ %)%*      "| syntax error/warn  | E:1W:1
 set statusline+=%=                         "| Align to right     |
-set statusline+=%{TlFormat()}\ %4*%*      "| File format        | unix 
+set statusline+=%{TlFormat()}\ %4*%*      "| File format        | unix 
 set statusline+=%(\ %{&fenc}\ %)           "| File encoding      | utf-8
-set statusline+=%4*%*%(\ %{&ft}\ %)       "| File type          |  python
-set statusline+=%3*%2*\ %l/%2c%4p%%\ %*   "| Line and column    | 69:77/ 90%
+set statusline+=%4*%*%(\ %{&ft}\ %)       "| File type          |  python
+set statusline+=%3*%2*\ %l/%2c%4p%%\ %*   "| Line and column    | 69:77/ 90%
 " ------------------------------------------'--------------------'---------}}}
 " Non-active statusline {{{
 " ------------------------------------------+--------------------+------------
