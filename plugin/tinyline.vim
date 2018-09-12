@@ -223,8 +223,8 @@ set statusline+=\ %7*%{&paste?'=':''}%*    "| Paste symbol       | =
 " set statusline+=%4*%{&ro?'':'#'}%*         "| Modifiable symbol  | #
 set statusline+=%6*%{TlMode()}             "| Readonly symbol    | 
 " set statusline+=%*%n                       "| Buffer number      | 3
-set statusline+=%6*%{TlModified()}%0*      "| Write symbol       | +
 set statusline+=\ %1*%{TlSuperName()}%*    "| Relative supername | cor/app.js
+set statusline+=%6*%{TlModified()}%0*      "| Write symbol       | +
 set statusline+=\ %<                       "| Truncate here      |
 set statusline+=%(\ %{TlBranchName()}\ %) "| Git branch name    |  master
 set statusline+=%4*%(%{TlWhitespace()}\ %) "| Space and indent   | trail34
